@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activity_logs",
+  "info": {
+    "name": "ActivityLogs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eventType": {
+      "type": "string"
+    },
+    "currentPoint": {
+      "type": "string"
+    },
+    "eventTimestamp": {
+      "type": "string"
+    },
+    "entryId": {
+      "type": "string"
+    },
+    "referrer": {
+      "type": "string"
+    },
+    "delay": {
+      "type": "string"
+    },
+    "idi": {
+      "type": "string"
+    }
+  }
+}
