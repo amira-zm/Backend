@@ -30,7 +30,10 @@
     "delay": {
       "type": "string"
     },
-    "idi": {
+    "ipAddress": {
+      "type": "string"
+    },
+    "userAgent": {
       "type": "string"
     }
   }

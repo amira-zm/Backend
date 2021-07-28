@@ -2,12 +2,30 @@
   "routes": [
     {
       "method": "GET",
+      "path": "/activity-logs/distinct",
+      "handler": "activity-logs.dis",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/activity-logs/report/:ipAddress",
+      "handler": "activity-logs.generateReport",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/activity-logs",
       "handler": "activity-logs.find",
       "config": {
         "policies": []
       }
     },
+
+ 
     {
       "method": "GET",
       "path": "/activity-logs/count",
