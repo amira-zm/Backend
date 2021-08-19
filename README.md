@@ -1,4 +1,3 @@
 # Strapi application
+Ce projet consite à gérer les differente endPoints 
 
-A quick description of your strapi application
-#backend
